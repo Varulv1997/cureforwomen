@@ -124,11 +124,21 @@ body {
   font-style: normal;
   line-height: 1.5;
   overflow-x: hidden;
-  background: #edf1f5; }
+  background: #edf1f5;
+  width: max-content;
+ }
 
 a:hover, a:active {
   outline: 0; }
-
+.navbar.navbar-inverse.navbar-fixed-top .nav-header {
+    padding-left: 12px;
+    height: 66px;
+    -webkit-transition: 0.4s ease;
+    -moz-transition: 0.4s ease;
+    transition: 0.4s ease;
+    overflow: hidden;
+    width: 247px !important;
+}
 button:focus {
   outline: 0; }
 
@@ -171,7 +181,71 @@ h4 {
 h5 {
   font-size: 18px;
   line-height: 26px;
+  text-align: center;
   text-transform: capitalize; }
+
+.rowa {
+-webkit-tap-highlight-color: rgba(0,0,0,0);
+font-family: "Nunito",sans-serif;
+font-weight: 300;
+font-size: 15px;
+line-height: 1.6em;
+color: #222;
+-webkit-font-smoothing: antialiased;
+box-sizing: border-box;
+outline: none;
+margin-right: -15px;
+margin-left: -15px;
+}
+.benefit-list {
+-webkit-tap-highlight-color: rgba(0,0,0,0);
+font-family: "Nunito",sans-serif;
+font-weight: 300;
+font-size: 15px;
+line-height: 1.6em;
+color: #222;
+-webkit-font-smoothing: antialiased;
+box-sizing: border-box;
+margin-left: 193px !important;
+margin-top: 0;
+outline: none;
+padding: 0;
+list-style-position: inside;
+list-style: none;
+display: flex;
+align-items: flex-start;
+justify-content: space-between;
+margin-bottom: 0;
+margin-left: 277px !important;
+margin-right: 5px;
+padding-top: 40px;
+}
+.benefit-card {
+-webkit-tap-highlight-color: rgba(0,0,0,0);
+font-family: "Nunito",sans-serif;
+font-weight: 300;
+font-size: 15px;
+line-height: 1.6em;
+color: #222;
+-webkit-font-smoothing: antialiased;
+list-style-position: inside;
+list-style: none;
+box-sizing: border-box;
+outline: none;
+display: flex;
+align-items: flex-start;
+padding-bottom: 40px;
+}
+.benefit-card img {
+    margin-right: 15px;
+    height: 45px;
+}
+.benefit-list li {
+    padding-left: 15px;
+    padding-right: 15px;
+    width: 33.33%;
+    max-width: 320px;
+}
 
 h6, .panel-title {
   font-size: 15.5px;
@@ -256,7 +330,7 @@ code {
   padding-top: 45px !important; }
 
 .pt-50 {
-  padding-top: 50px !important; }
+  padding-top: 25px !important; }
 
 .pb-0 {
   padding-bottom: 0px !important; }
@@ -289,7 +363,7 @@ code {
   padding-bottom: 45px !important; }
 
 .pb-50 {
-  padding-bottom: 50px !important; }
+  padding-bottom: 15px !important; }
 
 .pl-0 {
   padding-left: 0px !important; }
@@ -451,7 +525,7 @@ code {
   margin-bottom: 15px !important; }
 
 .mb-20 {
-  margin-bottom: 20px !important; }
+  margin-bottom: 0px !important; }
 
 .mb-25 {
   margin-bottom: 25px !important; }
@@ -665,7 +739,7 @@ code {
   color: #eb64a0 !important; }
 
 .txt-mauve {
-  color: #695069 !important; }
+  color: #695069 !important; text-align: center; }
 
 .txt-green {
   color: #2ecd99 !important; }
@@ -945,8 +1019,8 @@ blockquote {
   padding: 15px 20px;
   margin: 0 0 20px;
   font-size: 16px;
-  border-left: 4px solid #4e9de6;
-  background: #f7f7f9;
+  border-left: 4px solid #FFF;
+  background: #FFF;
   color: #212121; }
   blockquote small {
     font-size: 70%;
@@ -2846,6 +2920,7 @@ a#toggle_mobile_nav {
         .navbar.navbar-inverse.navbar-fixed-top .nav-header .logo-wrap .brand-img {
           margin-right: 10px;
           position: relative;
+		  margin-top: 4px;
           width: 200px; }
         .navbar.navbar-inverse.navbar-fixed-top .nav-header .logo-wrap .brand-text {
           display: inline-block;
@@ -9423,7 +9498,7 @@ sub, sup {
 /** Title Small Start **/
 /********************************************************/
 .h4 small, .h4 .small, .h5 small, .h5 .small, .h6 small, .h6 .small, h4 small, h4 .small, h5 small, h5 .small, h6 small, .panel-title small, h6 .small, .panel-title .small {
-  font-size: 65%; }
+  font-size: 65%; text-align: center; }
 
 /********************************************************/
 /** Title Small Start **/

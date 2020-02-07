@@ -39,7 +39,10 @@
 
 .montserrat-regular {
   font-family: 'Montserrat', sans-serif !important;
-  font-weight: 400 !important; }
+  font-weight: 400 !important; 
+  text-align: center;
+  margin-top: 40px;
+  }
 
 .montserrat-regular-italic {
   font-family: 'Montserrat', sans-serif !important;
