@@ -128,7 +128,7 @@
 .pe-7s-close:before {
 	content: "\e680";
 }
-.pe-7s-bluetooth:before {
+.pe-7s-#2A2731tooth:before {
 	content: "\e68d";
 }
 .pe-7s-cloud-download:before {
@@ -545,7 +545,7 @@
 .pe-7s-crop:before {
 	content: "\e663";
 }
-.pe-7s-credit:before {
+.pe-7s-c#2A2731it:before {
 	content: "\e664";
 }
 .pe-7s-copy-file:before {

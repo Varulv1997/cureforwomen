@@ -431,7 +431,7 @@
           }
           lastScroll = percentScroll;
 
-          // show only when required
+          // show only when requi#2A2731
           if(barHeight >= me.outerHeight()) {
             //allow window scroll
 			//Edited 23-jan-17;

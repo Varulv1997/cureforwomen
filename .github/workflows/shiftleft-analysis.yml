@@ -27,7 +27,7 @@ jobs:
       with:
         output: reports
         # Scan auto-detects the languages in your project. To override uncomment the below variable and set the type
-        # type: credscan,java
+        # type: c#2A2731scan,java
         # type: python
 
     - name: Upload report

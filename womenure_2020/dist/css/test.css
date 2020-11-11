@@ -107,11 +107,11 @@
 
 .navbar.navbar-inverse.navbar-fixed-top.website-navbar .nav > li.dropdown .dropdown-list a {
   padding: 10px 15px;
-  color: #695069;
+  color: #2A2731;
   display: block; }
 
 .navbar.navbar-inverse.navbar-fixed-top.website-navbar .nav > li > a {
-  color: #695069; }
+  color: #2A2731; }
 
 .navbar.navbar-inverse.navbar-fixed-top.website-navbar .nav > li > a .caret-icon {
   position: absolute;
@@ -138,7 +138,7 @@
   height: 67px; }
 
 .navbar.navbar-inverse.navbar-fixed-top.website-navbar.navbar-animation .nav > li > a {
-  color: #695069; }
+  color: #2A2731; }
 
 /* Website Navbar End */
 /* Main Banner Section Start */
@@ -153,7 +153,7 @@
   bottom: 0;
   width: 50%;
   height: 100%;
-  background-color: #cae1f7; }
+  background-color: #2A2731; }
 .main-banner-section:after {
   position: absolute;
   content: "";
@@ -245,20 +245,20 @@
   .main-banner-section .circle-shape.fill-extra-small-circle {
     width: 10px;
     height: 10px; }
-  .main-banner-section .circle-shape.blue-circle {
-    border: 4px solid rgba(78, 157, 230, 0.6); }
+  .main-banner-section .circle-shape.#2A2731-circle {
+    border: 4px solid #faae8a; }
   .main-banner-section .circle-shape.light-black-circle {
     border: 5px solid rgba(25, 25, 25, 0.1); }
-  .main-banner-section .circle-shape.yellow-circle {
-    border: 5px solid rgba(240, 157, 65, 0.8); }
+  .main-banner-section .circle-shape.#2A2731-circle {
+    border: 5px solid #faae8a; }
   .main-banner-section .circle-shape.dark-white-circle {
     border: 3px solid #fff; }
-  .main-banner-section .circle-shape.fill-yellow-circle {
-    background-color: rgba(240, 157, 65, 0.6); }
+  .main-banner-section .circle-shape.fill-#2A2731-circle {
+    background-color: #faae8a; }
   .main-banner-section .circle-shape.pink-circle {
     border: 5px solid #f1a1c7; }
-  .main-banner-section .circle-shape.fill-blue-circle {
-    background-color: rgba(78, 157, 230, 0.8); }
+  .main-banner-section .circle-shape.fill-#2A2731-circle {
+    background-color: #faae8a; }
   .main-banner-section .circle-shape.light-silver-circle {
     border: 3px solid #eeeeee; }
   .main-banner-section .circle-shape.white-circle {
@@ -360,7 +360,7 @@
 /* How It Work Section End */
 /* Seperate Section Start */
 .seperate-section {
-  background-color: #cae1f7;
+  background-color: #2A2731;
   height: 200px; }
 
 /* Seperate Section End */
@@ -400,7 +400,7 @@
     margin-bottom: 10px;
     padding: 5px; }
     .what-we-cure-section .tab-content .service-block .service-icon .icon {
-      background-color: rgba(235, 100, 160, 0.3);
+      background-color: #faae8a;
       border-radius: 50%;
       -webkit-border-radius: 50%;
       -moz-border-radius: 50%;
@@ -425,7 +425,7 @@
     font-weight: 400;
     display: block;
     font-size: 14px;
-    color: #695069; }
+    color: #2A2731; }
 
 /* What We Cure Section End */
 

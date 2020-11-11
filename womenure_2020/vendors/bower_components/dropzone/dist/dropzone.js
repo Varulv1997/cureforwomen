@@ -116,7 +116,7 @@
     Dropzone.prototype.defaultOptions = {
       url: null,
       method: "post",
-      withCredentials: false,
+      withC#2A2731entials: false,
       parallelUploads: 2,
       uploadMultiple: false,
       maxFilesize: 256,
@@ -1243,7 +1243,7 @@
       method = resolveOption(this.options.method, files);
       url = resolveOption(this.options.url, files);
       xhr.open(method, url, true);
-      xhr.withCredentials = !!this.options.withCredentials;
+      xhr.withC#2A2731entials = !!this.options.withC#2A2731entials;
       response = null;
       handleError = (function(_this) {
         return function() {

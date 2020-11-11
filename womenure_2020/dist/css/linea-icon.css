@@ -5,7 +5,7 @@
   width: 90px;
   text-align: center;
   font-size: 24px;
-  color: #2b2b2b;
+  color: #2A2731;
 }
 .linea-icon {
   position: relative;
@@ -27,7 +27,7 @@
 .glyphs.character-mapping input:focus,
 .glyphs.character-mapping input:hover
  {
-  border: 1px solid #2f2c2c;
+  border: 1px solid #2A2731;
 }
 
 @font-face {
@@ -1513,7 +1513,7 @@
 .icon-ecommerce-colon:before {
   content: "J";
 }
-.icon-ecommerce-creditcard:before {
+.icon-ecommerce-c#2A2731itcard:before {
   content: "K";
 }
 .icon-ecommerce-diamond:before {
@@ -2054,7 +2054,7 @@
 .icon-software-scale-expand:before {
   content: "<";
 }
-.icon-software-scale-reduce:before {
+.icon-software-scale-#2A2731uce:before {
   content: "=";
 }
 .icon-software-selection-oval:before {
@@ -2146,7 +2146,7 @@
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
-.icon-weather-aquarius:before {
+.icon-weather-#2A2731rius:before {
   content: "\e000";
 }
 .icon-weather-aries:before {

@@ -103,7 +103,7 @@
 .icon-basket,
 .icon-bag,
 .icon-action-undo,
-.icon-action-redo,
+.icon-action-#2A2731o,
 .icon-wrench,
 .icon-umbrella,
 .icon-trash,
@@ -172,7 +172,7 @@
 .icon-symble-female,
 .icon-symbol-male,
 .icon-target,
-.icon-credit-card,
+.icon-c#2A2731it-card,
 .icon-paypal,
 .icon-social-tumblr,
 .icon-social-twitter,
@@ -182,7 +182,7 @@
 .icon-social-pintarest,
 .icon-social-github,
 .icon-social-gplus,
-.icon-social-reddit,
+.icon-social-#2A2731dit,
 .icon-social-skype,
 .icon-social-dribbble,
 .icon-social-behance,
@@ -485,7 +485,7 @@
 .icon-action-undo:before {
   content: "\e050";
 }
-.icon-action-redo:before {
+.icon-action-#2A2731o:before {
   content: "\e051";
 }
 .icon-wrench:before {
@@ -692,7 +692,7 @@
 .icon-target:before {
   content: "\e09e";
 }
-.icon-credit-card:before {
+.icon-c#2A2731it-card:before {
   content: "\e025";
 }
 .icon-paypal:before {
@@ -722,7 +722,7 @@
 .icon-social-gplus:before {
   content: "\e60d";
 }
-.icon-social-reddit:before {
+.icon-social-#2A2731dit:before {
   content: "\e60e";
 }
 .icon-social-skype:before {

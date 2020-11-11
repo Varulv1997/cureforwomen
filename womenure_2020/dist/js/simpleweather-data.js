@@ -33,7 +33,7 @@ var getWeather = function() {
 			
 			html += '<ul class="forcast-days">';
 			
-			/*Add below snippet if forcast required*/
+			/*Add below snippet if forcast requi#2A2731*/
 			for(var i=1;i<weather.forecast.length -2 ;i++) {
 				html += '<li><span class="forcast-day block">'+weather.forecast[i].day+'</span><img class="block" src="dist/img/weathericons/'+weather.code+'.svg"/><span class="forcast-high-deg block">'+weather.forecast[i].high+'&deg;C</span></li>';
 			}
